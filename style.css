@@ -216,19 +216,20 @@ footer {
 }
 .piedpage__s1 {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   gap: 3rem;
 }
 .piedpage__s1__externe {
   flex: 0 0 20%;
 }
 .piedpage__s1__externe .menu {
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
 .piedpage__s1__adresse {
-  flex: 0 0 40%;
+  margin: auto;
 }
 .piedpage__s1__description {
-  flex: 1 0 300px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
