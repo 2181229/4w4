@@ -19,17 +19,18 @@ Les Variables
 Base
 //////////////////////// */
 a {
-  color: #5a5;
+  color: grey;
   text-decoration: none;
+  background-color: black;
 }
 a:hover {
-  color: rgba(0, 0, 0, 0.1);
+  color: purple;
 }
 a:visited {
-  color: rgba(0, 0, 0, 0.3);
+  color: red;
 }
 a:focus {
-  color: rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
 /* /////////////////////////
@@ -134,7 +135,7 @@ Layout
   display: flex;
   justify-content: center;
   color: red;
-  font-family: 'Trebuchet MS';
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 100px;
 }
 
@@ -204,8 +205,9 @@ Layout
   --------------------------------- Layout du pied de page
 */
 footer {
-  background-color: rgb(236, 136, 13);
-  color: #000;
+  background-color: black;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .piedpage {

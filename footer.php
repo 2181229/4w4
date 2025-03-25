@@ -11,14 +11,14 @@
 
             <div class="piedpage__s1__adresse">
                 <div class="piedpage__s1__adresse__coord">
-                    ceci est un espace pour écrire une adresse/ une coordonnée.
+                    Veuillez rechercher une page valide:
                 </div>
                 <div class="piedpage__s1__adresse__recherche">
                     <?php get_search_form();   ?>
                 </div>
             </div>
             <div class="piedpage__s1__description">
-                ceci est la description du problème en cours (erreur 404)
+                La page que vous cherchez n'existe pas.
             </div>
         </section>
         <section class="piedpage__s2"></section>
