@@ -130,6 +130,14 @@ Layout
   max-width: 1000px;
 }
 
+.global h1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-family: 'Trebuchet MS';
+  font-size: 100px;
+}
+
 .hero {
   min-height: 100vh;
   background-image: url("images/maldives.jpg");

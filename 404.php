@@ -7,7 +7,7 @@
 <?php get_header() ?>
     <section class="populaire">
         <div class="global">
-            <h1>
+            <h1 class="annonce">
                 erreur 404
             </h1>
         </div>
