@@ -205,18 +205,20 @@ Layout
   --------------------------------- Layout du pied de page
 */
 footer {
+  margin: auto;
+  width: 1000px;
+  word-spacing: 2px;
   background-color: black;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .piedpage {
+  height: 10rem;
   display: flex;
-  flex-direction: column;
 }
 .piedpage__s1 {
   display: flex;
-  /*flex-wrap: wrap;*/
   gap: 3rem;
 }
 .piedpage__s1__externe {
