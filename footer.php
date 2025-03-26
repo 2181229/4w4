@@ -7,18 +7,18 @@
                     "container" => "nav",
                     "container_class" => "piedpage__s1__externe"
                 )); ?>
-    
+                
 
             <div class="piedpage__s1__adresse">
                 <div class="piedpage__s1__adresse__coord">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere porro veniam vitae, tempore corporis omnis nam 
+                    Veuillez rechercher une page valide:
                 </div>
                 <div class="piedpage__s1__adresse__recherche">
                     <?php get_search_form();   ?>
                 </div>
             </div>
             <div class="piedpage__s1__description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat vero explicabo iure sit enim, ea ducimus nesciunt inventore impedit blanditiis unde omnis facere, deleniti eligendi fuga molestias dolor eveniet laborum!
+                La page que vous cherchez n'existe pas.
             </div>
         </section>
         <section class="piedpage__s2"></section>

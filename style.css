@@ -19,17 +19,18 @@ Les Variables
 Base
 //////////////////////// */
 a {
-  color: #5a5;
+  color: grey;
   text-decoration: none;
+  background-color: black;
 }
 a:hover {
-  color: rgba(0, 0, 0, 0.1);
+  color: purple;
 }
 a:visited {
-  color: rgba(0, 0, 0, 0.3);
+  color: red;
 }
 a:focus {
-  color: rgba(0, 0, 0, 0.4);
+  color: white;
 }
 
 /* /////////////////////////
@@ -130,6 +131,14 @@ Layout
   max-width: 1000px;
 }
 
+.global h1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 100px;
+}
+
 .hero {
   min-height: 100vh;
   background-image: url("images/maldives.jpg");
@@ -196,29 +205,33 @@ Layout
   --------------------------------- Layout du pied de page
 */
 footer {
-  background-color: rgb(236, 136, 13);
-  color: #000;
+  margin: auto;
+  width: 1000px;
+  word-spacing: 2px;
+  background-color: black;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .piedpage {
+  height: 10rem;
   display: flex;
-  flex-direction: column;
 }
 .piedpage__s1 {
   display: flex;
-  flex-wrap: wrap;
   gap: 3rem;
 }
 .piedpage__s1__externe {
   flex: 0 0 20%;
 }
 .piedpage__s1__externe .menu {
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
 .piedpage__s1__adresse {
-  flex: 0 0 40%;
+  margin: auto;
 }
 .piedpage__s1__description {
-  flex: 1 0 300px;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
