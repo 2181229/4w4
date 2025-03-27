@@ -131,7 +131,7 @@ Layout
   max-width: 1000px;
 }
 
-.global h1 {
+.annonce {
   display: flex;
   justify-content: center;
   color: red;
