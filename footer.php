@@ -11,14 +11,14 @@
 
             <div class="piedpage__s1__adresse">
                 <div class="piedpage__s1__adresse__coord">
-                    Veuillez rechercher une page valide:
+                    Trouvez une page:
                 </div>
                 <div class="piedpage__s1__adresse__recherche">
                     <?php get_search_form();   ?>
                 </div>
             </div>
             <div class="piedpage__s1__description">
-                La page que vous cherchez n'existe pas.
+                droits d'auteurs
             </div>
         </section>
         <section class="piedpage__s2"></section>
