@@ -21,7 +21,6 @@ Base
 a {
   color: grey;
   text-decoration: none;
-  background-color: black;
 }
 a:hover {
   color: purple;
@@ -206,7 +205,7 @@ Layout
 */
 footer {
   margin: auto;
-  width: 1000px;
+  /* width: 1000px; */
   word-spacing: 2px;
   background-color: black;
   color: white;
