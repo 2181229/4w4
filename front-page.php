@@ -6,7 +6,7 @@
 ?>
 
 <?php get_header() ?>
-<h1>front-page.php</h1>
+<h1>Page d'acceuil</h1>
     <section class="hero">
         <div class="hero__contenu global">
             <h1 class="hero__titre">
@@ -19,7 +19,7 @@
                 info@cmaisonneuve.qc.ca
             </a>
             <button class="hero__bouton">
-                Inscription
+                rechercher
             </button>
             <div class="hero__icone-app">
                 <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=000000" width="20" height="20">
