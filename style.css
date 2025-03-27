@@ -19,14 +19,14 @@ Les Variables
 Base
 //////////////////////// */
 a {
-  color: grey;
+  color: blue;
   text-decoration: none;
 }
 a:hover {
-  color: purple;
+  text-decoration: underline;
 }
 a:visited {
-  color: red;
+  color: purple;
 }
 a:focus {
   color: white;
